@@ -1,0 +1,126 @@
+//Main
+		Font f = new Font("SansSerif", Font.PLAIN, 18);
+		Color slide = new Color(57, 38, 90);
+		Color hover = new Color(86, 67, 117);
+		int SlideButtonHeight = 50;
+		int SkideButtonWidth = 200;
+
+//First Button 
+		btnAddUser.setFont(f);
+		btnAddUser.setBackground(slide);
+		btnAddUser.setForeground(Color.WHITE);
+		btnAddUser.setBounds(0, 150, SkideButtonWidth, SlideButtonHeight);
+		btnAddUser.setBorder(null);
+		btnAddUser.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mouseEntered(MouseEvent e) {
+				btnAddUser.setBackground(hover);
+			}
+			@Override
+			public void mouseExited(MouseEvent e) {
+				btnAddUser.setBackground(slide);
+			}
+		});
+
+//Second Button
+		btnSearch.setFont(f);
+		btnSearch.setBackground(slide);
+		btnSearch.setForeground(Color.WHITE);
+		btnSearch.setBounds(0, 200, SkideButtonWidth, SlideButtonHeight);
+		btnSearch.setBorder(null);
+		btnSearch.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mouseEntered(MouseEvent e) {
+				btnSearch.setBackground(hover);
+			}
+			@Override
+			public void mouseExited(MouseEvent e) {
+				btnSearch.setBackground(slide);
+			}
+		});
+		
+//Third Button
+		btnDisplayAll.setFont(f);
+		btnDisplayAll.setBackground(slide);
+		btnDisplayAll.setForeground(Color.WHITE);
+		btnDisplayAll.setBounds(0, 250, SkideButtonWidth, SlideButtonHeight);
+		btnDisplayAll.setBorder(null);
+		btnDisplayAll.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mouseEntered(MouseEvent e) {
+				btnDisplayAll.setBackground(hover);
+			}
+			@Override
+			public void mouseExited(MouseEvent e) {
+				btnDisplayAll.setBackground(slide);
+			}
+		});
+		
+//LogOut Button
+		btnLogOut.setFont(f);
+		btnLogOut.setBackground(slide);
+		btnLogOut.setForeground(Color.WHITE);
+		btnLogOut.setBorder(null);
+		btnLogOut.setBounds(0, 450, SkideButtonWidth, SlideButtonHeight);
+		btnLogOut.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mouseEntered(MouseEvent e) {
+				btnLogOut.setBackground(hover);
+			}
+			@Override
+			public void mouseExited(MouseEvent e) {
+				btnLogOut.setBackground(slide);
+			}
+		});
+
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+
+
+/************************************************************************************************/
+//MainPanels
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 900, 600);
+		contentPane = new JPanel();
+		contentPane.setBackground(slide);
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+		setContentPane(contentPane);
+		contentPane.setLayout(null);
+//OtherPanels
+		addPanel.setBackground(Color.WHITE);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
