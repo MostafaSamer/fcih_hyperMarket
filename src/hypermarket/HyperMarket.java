@@ -21,7 +21,7 @@ public class HyperMarket {
      */
     public static void main(String[] args) {
     	
-        String projectpath = System.getProperty("user.dir"); 
+        String projectpath = System.getProperty("user.dir");
         File currentDir = new File(projectpath);
         checkDirectoryContents(currentDir);
         new login().setVisible(true);
