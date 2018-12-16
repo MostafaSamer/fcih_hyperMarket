@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author Lenovo
+ * 
  */
 public class Marketer extends Person{
 	
@@ -58,10 +58,14 @@ public class Marketer extends Person{
     	
         LoadFromFile();
         int index = GetMrketer(this.getUserName());
+         Exception myex= new Exception();
         if (index==-1) {
+            if (myex.ExAge(getAge())&& myex.ExSSN(getSSN()) && myex.ExName(getName()) && myex.ExPass(getPass()) && myex.ExSalary(getSalary()) && myex.ExUsername(getUserName())) {
+        	
         	
         	Mrketer1.add(this);
         	return CommitToFile();
+        }
         }
         return false;
     }

@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author Muhammad
+ * 
  */
 public class Admin extends Person{
    

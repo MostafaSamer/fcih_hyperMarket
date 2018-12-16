@@ -265,6 +265,7 @@ public class CashierFrame extends JFrame {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				
+                            try {
 				String name = nameCombo.getSelectedItem().toString();
 				double price = new Selling().GetPrice(name);
 				int qua = Integer.parseInt(numberCombo.getSelectedItem().toString());
@@ -272,6 +273,8 @@ public class CashierFrame extends JFrame {
 				String quaS = Double.toString(qua);
 				String priceS = Double.toString(price);
 				
+                                
+                                
 				//Deleting the qua from the ArrayList
 				new Selling().miniProudect(name, qua);
 				
@@ -288,7 +291,9 @@ public class CashierFrame extends JFrame {
 				rowData1[2] = quaS;
 				rowData1[3] = total;
 				model1.addRow(rowData1);
-				
+                                }catch (Exception ew){
+                                    JOptionPane.showMessageDialog(null, "Number out of stack", "Error", JOptionPane.ERROR_MESSAGE);
+                                }
 			}
 		} );
 		

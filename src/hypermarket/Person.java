@@ -28,7 +28,7 @@ public class Person implements Serializable,ILogin{
 		this.setAge(age);
 		this.setSSN(ssn);
 		this.setsalary(Salary);
-        this.setdepartment(department);
+                this.setdepartment(department);
         
 	}
 	

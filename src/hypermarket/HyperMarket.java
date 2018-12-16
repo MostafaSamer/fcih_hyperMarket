@@ -12,7 +12,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Muhammad
+ * 
  */
 public class HyperMarket {
 

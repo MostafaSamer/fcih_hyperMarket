@@ -7,7 +7,7 @@ package GUI;
 
 /**
  *
- * @author Muhammad
+ * 
  */
 
 import hypermarket.*;
@@ -325,7 +325,7 @@ public class StoreFrame extends JFrame{
                  JButton btnsearch = new JButton("Search");
                  btnsearch.setFont(new Font("Dialog", Font.BOLD, 15));
 		btnsearch.setBackground(Color.WHITE);
-		btnsearch.setBounds(359, 15, 163, 35);
+		btnsearch.setBounds(359, 15, 90, 30);
                UpdatePanel.add(btnsearch);
                 
               JButton btnDamage = new JButton("Damage Item");
@@ -507,7 +507,7 @@ public class StoreFrame extends JFrame{
 			}
 		} );
 		
-		addPanel.setVisible(true);
+		addPanel.setVisible(false);
 		UpdatePanel.setVisible(false);
 		displayPanel.setVisible(false);
 		

@@ -8,7 +8,7 @@ import java.io.Serializable;
 
 /**
  *
- * @author Muhammad
+ * 
  */
 public class Offer extends Store implements Serializable {
 	

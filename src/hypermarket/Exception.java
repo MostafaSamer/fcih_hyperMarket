@@ -8,7 +8,7 @@ package hypermarket;
 import javax.swing.JOptionPane;
 /**
  *
- * @author Muhammad
+ * 
  */
 public class Exception {
 	
@@ -30,14 +30,14 @@ public class Exception {
     
 	public boolean ExPass(String pass) {
 		
-		if(pass.length()>4) {
+		if(pass.length()>0) {
 			
 			return true;
 
 		}
         else {
         	
-             JOptionPane.showMessageDialog(null, "Pass length must be greater than 4", "Numbers", JOptionPane.ERROR_MESSAGE);
+             JOptionPane.showMessageDialog(null, "Pass length must be greater than 0", "Numbers", JOptionPane.ERROR_MESSAGE);
              return false;
                  
        }
@@ -61,13 +61,13 @@ public class Exception {
 	}
 	public boolean ExName (String name) {
 		
-		if(name.length()>4) {
+		if(name.length()>0) {
 			
             return true;
             
         } else {
         	
-            JOptionPane.showMessageDialog(null, "Name length must be bigger than 4", "Numbers", JOptionPane.ERROR_MESSAGE);
+            JOptionPane.showMessageDialog(null, "Name length must be bigger than 0", "Numbers", JOptionPane.ERROR_MESSAGE);
             return false;
             
         }
@@ -75,13 +75,13 @@ public class Exception {
 	}
 	public boolean ExUsername (String username ) {
 		
-		if(username.length()>2) {
+		if(username.length()>0) {
 			
             return true;
             
         } else {
         	
-            JOptionPane.showMessageDialog(null, "Username length must be bigger than 4", "Numbers", JOptionPane.ERROR_MESSAGE);
+            JOptionPane.showMessageDialog(null, "Username length must be bigger than 0", "Numbers", JOptionPane.ERROR_MESSAGE);
             return false;
             
         }

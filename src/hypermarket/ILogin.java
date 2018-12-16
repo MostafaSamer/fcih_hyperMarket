@@ -7,7 +7,7 @@ package hypermarket;
 
 /**
  *
- * @author Muhammad
+ * 
  */
 public interface ILogin {
 	
